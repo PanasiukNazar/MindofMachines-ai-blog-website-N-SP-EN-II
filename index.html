@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Mind of Machines</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-grow text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0"
+        >
+            <a
+                href="index.html"
+                class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5"
+            >
+                <h2 class="mb-2 text-white">Mind of Machines</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Home</a
+                    >
+                    <a href="#about" class="nav-item nav-link">About</a>
+                    <a href="#service" class="nav-item nav-link">Services</a>
+                    <a href="#team" class="nav-item nav-link">Team</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
+                </div>
+                <h4 class="m-0 pe-lg-5 d-none d-lg-block">
+                    <i class="fa fa-headphones text-primary me-3"></i
+                    >+16138396161
+                </h4>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5">
+            <div class="owl-carousel header-carousel position-relative mb-5">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div
+                        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(6, 3, 21, 0.5)"
+                    >
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h5
+                                        class="text-white text-uppercase mb-3 animated slideInDown"
+                                    >
+                                        Artificial Intelligence Insights
+                                    </h5>
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Unlock the Potential of
+                                        <span class="text-primary"
+                                            >Artificial Intelligence</span
+                                        >
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Stay updated with the latest
+                                        advancements in AI. We explore the
+                                        future of artificial intelligence, from
+                                        machine learning algorithms to deep
+                                        learning technologies, and their
+                                        potential impact across industries.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div
+                        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(6, 3, 21, 0.5)"
+                    >
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h5
+                                        class="text-white text-uppercase mb-3 animated slideInDown"
+                                    >
+                                        Machine Learning Innovations
+                                    </h5>
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Transforming Data Into
+                                        <span class="text-primary"
+                                            >Actionable Insights</span
+                                        >
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Discover how machine learning is
+                                        reshaping industries. From predictive
+                                        analytics to autonomous systems, we dive
+                                        into how these technologies are
+                                        revolutionizing data processing.
+                                    </p>
+                                    <a
+                                        href="#about"
+                                        class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                                        >Learn More</a
+                                    >
+                                    <a
+                                        href="#contact"
+                                        class="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
+                                        >Free Consultation</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div id="about" class="container-fluid overflow-hidden py-5 px-lg-0">
+            <div class="container about py-5 px-lg-0">
+                <div class="row g-5 mx-lg-0">
+                    <div
+                        class="col-lg-6 ps-lg-0 wow fadeInLeft"
+                        data-wow-delay="0.1s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/about.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 about-text wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <h6 class="text-secondary text-uppercase mb-3">
+                            About Us
+                        </h6>
+                        <h1 class="mb-5">
+                            Your Trusted Source for AI Information
+                        </h1>
+                        <p class="mb-5">
+                            We focus on delivering cutting-edge insights and
+                            information about artificial intelligence. Our
+                            mission is to provide valuable knowledge on AI
+                            trends, machine learning, and the impact of AI on
+                            industries and daily life.
+                        </p>
+                        <div class="row g-4 mb-5">
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.5s"
+                            >
+                                <i
+                                    class="fa fa-globe fa-3x text-primary mb-3"
+                                ></i>
+                                <h5>AI Technology Trends</h5>
+                                <p class="m-0">
+                                    Stay informed about the latest trends in AI.
+                                    We cover everything from deep learning to
+                                    natural language processing and their
+                                    application across various sectors.
+                                </p>
+                            </div>
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.7s"
+                            >
+                                <i
+                                    class="fa fa-cogs fa-3x text-primary mb-3"
+                                ></i>
+                                <h5>Machine Learning Insights</h5>
+                                <p class="m-0">
+                                    Our content explores machine learning,
+                                    explaining how it works, its applications,
+                                    and how it’s changing the world through
+                                    automated processes and intelligent
+                                    decision-making.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Fact Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="text-secondary text-uppercase mb-3">
+                            Some Facts
+                        </h6>
+                        <h1 class="mb-5">
+                            Key Insights on Artificial Intelligence
+                        </h1>
+                        <p class="mb-5">
+                            Understanding the impact and opportunities presented
+                            by artificial intelligence (AI) is crucial for
+                            organizations aiming to stay competitive in a
+                            rapidly evolving landscape. Here are some important
+                            facts and insights that can help you navigate the
+                            challenges and advantages of adopting AI
+                            technologies in your business.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <i
+                                class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"
+                            ></i>
+                            <div class="ps-4">
+                                <h6>Call for any query!</h6>
+                                <h3 class="text-primary m-0">+16138396161</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-sm-6">
+                                <div
+                                    class="bg-primary p-4 mb-4 wow fadeIn"
+                                    data-wow-delay="0.3s"
+                                >
+                                    <i
+                                        class="fa fa-robot fa-2x text-white mb-3"
+                                    ></i>
+                                    <h2
+                                        class="text-white mb-2"
+                                        data-toggle="counter-up"
+                                    >
+                                        500+
+                                    </h2>
+                                    <p class="text-white mb-0">
+                                        AI Solutions Developed
+                                    </p>
+                                </div>
+                                <div
+                                    class="bg-secondary p-4 wow fadeIn"
+                                    data-wow-delay="0.5s"
+                                >
+                                    <i
+                                        class="fa fa-code fa-2x text-white mb-3"
+                                    ></i>
+                                    <h2
+                                        class="text-white mb-2"
+                                        data-toggle="counter-up"
+                                    >
+                                        120+
+                                    </h2>
+                                    <p class="text-white mb-0">
+                                        AI Research Publications
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div
+                                    class="bg-success p-4 wow fadeIn"
+                                    data-wow-delay="0.7s"
+                                >
+                                    <i
+                                        class="fa fa-database fa-2x text-white mb-3"
+                                    ></i>
+                                    <h2
+                                        class="text-white mb-2"
+                                        data-toggle="counter-up"
+                                    >
+                                        300+
+                                    </h2>
+                                    <p class="text-white mb-0">
+                                        Data Science Projects Completed
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+        <!-- Service Start -->
+        <div id="service" class="container-xxl py-5">
+            <div class="container py-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Our Blog</h6>
+                    <h1>Comprehensive AI Insights and Innovations</h1>
+                    <p class="mb-5">
+                        We offer a wealth of knowledge and insights to help
+                        individuals and businesses understand the latest trends,
+                        advancements, and opportunities in artificial
+                        intelligence (AI). Our expert team is dedicated to
+                        providing valuable content that explores AI
+                        applications, challenges, and breakthroughs to foster
+                        growth in the tech industry.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/service-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="mb-3">AI Applications in Business</h4>
+                            <p>
+                                Discover how AI is transforming various
+                                industries by automating processes, improving
+                                decision-making, and creating new opportunities
+                                for growth. Learn about the successful
+                                applications of AI in business operations,
+                                marketing, and customer experience.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/service-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="mb-3">
+                                The Future of Artificial Intelligence
+                            </h4>
+                            <p>
+                                Explore the future trends in AI technology,
+                                including the rise of automation, machine
+                                learning advancements, and how AI is shaping the
+                                future of various sectors such as healthcare,
+                                finance, and technology.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="service-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/service-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="mb-3">AI Ethics and Responsibility</h4>
+                            <p>
+                                Delve into the ethical considerations
+                                surrounding the use of AI, including privacy
+                                concerns, bias in AI algorithms, and the
+                                responsibility of companies in ensuring AI is
+                                used for the greater good of society.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/service-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="mb-3">
+                                Machine Learning and AI Integration
+                            </h4>
+                            <p>
+                                Learn about the synergy between machine learning
+                                and AI, and how businesses can integrate machine
+                                learning models to optimize their operations,
+                                enhance predictive capabilities, and improve
+                                customer insights.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/service-5.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="mb-3">AI-Powered Data Analytics</h4>
+                            <p>
+                                Explore how AI-powered data analytics can help
+                                organizations unlock valuable insights from
+                                their data, improve decision-making, and achieve
+                                more accurate forecasts for better business
+                                outcomes.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="service-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/service-6.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="mb-3">AI Innovations and Trends</h4>
+                            <p>
+                                Stay updated on the latest innovations in AI,
+                                including breakthrough technologies, emerging
+                                tools, and cutting-edge applications that are
+                                driving the next wave of advancements in the
+                                field.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid overflow-hidden py-5 px-lg-0">
+            <div class="container feature py-5 px-lg-0">
+                <div class="row g-5 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <h6 class="text-secondary text-uppercase mb-3">
+                            Our Features
+                        </h6>
+                        <h1 class="mb-5">
+                            Why Follow Our AI Insights and Innovations Blog
+                        </h1>
+                        <div
+                            class="d-flex mb-5 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <i
+                                class="fa fa-globe text-primary fa-3x flex-shrink-0"
+                            ></i>
+                            <div class="ms-4">
+                                <h5>Cutting-Edge AI Research</h5>
+                                <p class="mb-0">
+                                    Stay updated with the latest advancements in
+                                    artificial intelligence through our blog. We
+                                    provide in-depth analysis and discussions on
+                                    new AI models, machine learning algorithms,
+                                    and data-driven innovations shaping the
+                                    future of technology.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex mb-5 wow fadeIn"
+                            data-wow-delay="0.5s"
+                        >
+                            <i
+                                class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"
+                            ></i>
+                            <div class="ms-4">
+                                <h5>Real-World AI Applications</h5>
+                                <p class="mb-0">
+                                    Learn about how AI is transforming
+                                    industries such as healthcare, finance, and
+                                    customer service. Our blog covers practical
+                                    applications, case studies, and success
+                                    stories that highlight the impact of AI in
+                                    everyday life.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex mb-0 wow fadeInUp"
+                            data-wow-delay="0.7s"
+                        >
+                            <i
+                                class="fa fa-headphones text-primary fa-3x flex-shrink-0"
+                            ></i>
+                            <div class="ms-4">
+                                <h5>Expert Insights and Trends</h5>
+                                <p class="mb-0">
+                                    Gain valuable insights from AI experts. Our
+                                    blog offers a collection of articles,
+                                    interviews, and analysis on AI trends,
+                                    including the latest developments in
+                                    artificial intelligence technologies and
+                                    their future potential.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 pe-lg-0 wow fadeInRight"
+                        data-wow-delay="0.1s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Team Start -->
+        <div id="team" class="container-xxl py-5">
+            <div class="container py-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Our Team</h6>
+                    <h1 class="mb-5">AI Experts Behind Our Insights</h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h5 class="mb-0">Sarah Johnson</h5>
+                            <p>AI Research Specialist</p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h5 class="mb-0">David Smith</h5>
+                            <p>Machine Learning Expert</p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h5 class="mb-0">Emily Lee</h5>
+                            <p>AI Technology Consultant</p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.9s"
+                    >
+                        <div class="team-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h5 class="mb-0">Michael Brown</h5>
+                            <p>AI Applications Expert</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="text-center">
+                    <h6 class="text-secondary text-uppercase">Testimonial</h6>
+                    <h1 class="mb-0">Our Clients Say!</h1>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="testimonial-item p-4 my-5">
+                        <i
+                            class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"
+                        ></i>
+                        <div class="d-flex align-items-end mb-4">
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/testimonial-1.jpg"
+                                style="width: 80px; height: 80px"
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">John Doe</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "Mind of Machines has greatly enhanced our
+                            understanding and adoption of AI-driven solutions.
+                            Their expertise helped us integrate machine learning
+                            algorithms into our processes, and we are seeing a
+                            remarkable improvement in our operational
+                            efficiency."
+                        </p>
+                    </div>
+                    <div class="testimonial-item p-4 my-5">
+                        <i
+                            class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"
+                        ></i>
+                        <div class="d-flex align-items-end mb-4">
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/testimonial-2.jpg"
+                                style="width: 80px; height: 80px"
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Jane Smith</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "The team at Mind of Machines helped us navigate the
+                            complexities of AI and big data. Their solutions for
+                            predictive analytics and data-driven decision-making
+                            have significantly boosted our performance."
+                        </p>
+                    </div>
+                    <div class="testimonial-item p-4 my-5">
+                        <i
+                            class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"
+                        ></i>
+                        <div class="d-flex align-items-end mb-4">
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/testimonial-3.jpg"
+                                style="width: 80px; height: 80px"
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Robert Brown</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "Working with Mind of Machines has transformed our
+                            approach to AI integration. The team provided
+                            valuable insights into AI automation that improved
+                            our customer service and product quality."
+                        </p>
+                    </div>
+                    <div class="testimonial-item p-4 my-5">
+                        <i
+                            class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"
+                        ></i>
+                        <div class="d-flex align-items-end mb-4">
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/testimonial-4.jpg"
+                                style="width: 80px; height: 80px"
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Mary Taylor</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            "Mind of Machines helped us understand how AI can
+                            revolutionize business operations. Their AI-driven
+                            tools have empowered us to make smarter decisions
+                            and optimize our workflows."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Contact Start -->
+        <div id="contact" class="container-fluid overflow-hidden py-5 px-lg-0">
+            <div class="container contact-page py-5 px-lg-0">
+                <div class="row g-5 mx-lg-0">
+                    <div
+                        class="col-md-6 contact-form wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <h6 class="text-secondary text-uppercase">
+                            Get In Touch
+                        </h6>
+                        <h1 class="mb-4">Contact For Any Query</h1>
+                        <p class="mb-4">
+                            Have questions about artificial intelligence,
+                            machine learning, or AI implementation? Need
+                            assistance in exploring the potential of AI for your
+                            business? Reach out to our team for personalized
+                            guidance, and we will assist you in implementing AI
+                            strategies to drive growth.
+                        </p>
+                        <div class="bg-light p-4">
+                            <form action="thanks.html" method="get">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="name"
+                                                placeholder="Your Name"
+                                                required
+                                            />
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="email"
+                                                class="form-control"
+                                                id="email"
+                                                placeholder="Your Email"
+                                                required
+                                            />
+                                            <label for="email"
+                                                >Your Email</label
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="subject"
+                                                placeholder="Subject"
+                                                required
+                                            />
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea
+                                                class="form-control"
+                                                placeholder="Leave a message here"
+                                                id="message"
+                                                style="height: 100px"
+                                                required
+                                            ></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-primary w-100 py-3"
+                                            type="submit"
+                                            id="submit"
+                                        >
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 pe-lg-0 wow fadeInRight"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="position-relative h-100">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89781.23110936311!2d-76.15060090273437!3d45.31522319999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd20185db969ae7%3A0xb11751faac01edf8!2sAAI%20Canada!5e0!3m2!1suk!2sua!4v1742125361420!5m2!1suk!2sua"
+                                class="position-absolute w-100 h-100"
+                                style="object-fit: cover"
+                                frameborder="0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+            style="margin-top: 6rem"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Mind of Machines</h4>
+                        <p>
+                            Stay informed and empowered with our comprehensive
+                            resources on artificial intelligence, machine
+                            learning, and AI technologies. Contact us today to
+                            explore the future of AI and its potential to
+                            transform industries and drive innovation.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Services</h4>
+                        <a class="btn btn-link">AI Solutions</a>
+                        <a class="btn btn-link">Machine Learning</a>
+                        <a class="btn btn-link">AI Technology Consultation</a>
+                        <a class="btn btn-link">AI Integration</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Quick Links</h4>
+                        <a class="btn btn-link" href="index.html">Home</a>
+                        <a class="btn btn-link" href="#contact">Contact Us</a>
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Terms & Condition</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Privacy Policy</a
+                        >
+                        <a class="btn btn-link" href="cookie-policy.html"
+                            >Cookie Policy</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Contact Info</h4>
+                        <p>
+                            <i class="fa fa-map-marker-alt me-3"></i>Unit 19,
+                            112 John Cavanaugh Dr, Carp, ON K0A 1L0, Canada
+                        </p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+16138396161</p>
+                        <p>
+                            <i class="fa fa-envelope me-3"></i
+                            >mind_of_machines@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="cookie-policy.html">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
