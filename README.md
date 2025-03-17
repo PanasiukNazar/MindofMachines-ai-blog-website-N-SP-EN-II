@@ -1,1 +1,1 @@
-# MindofMachines-ai-blog-website-N-SP-EN-II
+[DEMO](https://panasiuknazar.github.io/MindofMachines-ai-blog-website-N-SP-EN-II/)
